@@ -106,3 +106,5 @@ If stop is what you want bank 1 pad 1 (CC# 25) to do, you're done. Save the file
 
 The file goes in ...\Documents\Image-Line\FL Studio\Settings\Hardware\devicename\device_devicename.py.  You will have to create the folder "devicename".
 
+In FL's midi settings, select the midi device and then choose your script on the "Controller type" menu.
+
