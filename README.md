@@ -32,7 +32,7 @@ Most controllers have some sort of layout editor software that will show you the
 
 Or you can use MIDI-OX.
 
-Or go to the FL Studio menu "OPTIONS" -> "Debugging Log" to get a window where you can press a pad and see the info.  The CC number is the second number. It is shown as an octal integer.  To convert octal integer to a normal base-10, use a python console and type the octal value N prefixed by 0x and hit enter.  Example:
+Or go to the FL Studio menu "OPTIONS" -> "Debugging Log" to get a window where you can press a pad and see the info.  The CC number is the second number. It is shown as an hexadecimal integer.  To convert hexadecimal integer to a normal base-10, use a python console and type the hexadecimal value N prefixed by 0x and hit enter.  Example:
 
 Debugging log shows these lines when you press a pad:
 
@@ -49,7 +49,7 @@ In a python console, type 0x19
 
     25
 
-(25 is octal 19 shown in base-10)
+(25 is hexadecimal 19 shown in base-10)
 
 
 In the section at the top of the file labeled "CC Assignments", uncomment the lines for banks and pads you want to have scripted functions for.
